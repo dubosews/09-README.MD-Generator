@@ -19,6 +19,7 @@ function licenseBadge(data) {
     return licenseString
   };
 //This is the template for the Readme.md to be generated from.
+//data is the parameter of the function which is the responses being passed from the inquirer module after completing the prompt.
 function generateMarkdown(data) {
     return `# ${data.title}
 
