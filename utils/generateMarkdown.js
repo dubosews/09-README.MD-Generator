@@ -1,5 +1,7 @@
 // function to generate markdown for README
 function licenseBadge(data) {
+  //This function analyzes the license response from the prompt and retrieves that information 
+  //from the link based on which option was picked.
   const licenseType = data.license[0];
   let licenseString = " "
     if (licenseType === "MIT") {
@@ -16,7 +18,7 @@ function licenseBadge(data) {
       };
     return licenseString
   };
-
+//This is the template for the Readme.md to be generated from.
 function generateMarkdown(data) {
     return `# ${data.title}
 
