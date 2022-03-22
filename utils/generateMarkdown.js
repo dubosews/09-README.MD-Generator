@@ -52,6 +52,7 @@ ${data.tests}
 ${licenseBadge(data)}
 
 ## Questions
+[github icon](./github-icon-small.png)
 Github Profile: [${data.github}](https://github.com/${data.github})
 Contact Email: [${data.email}](mailto:${data.email})
 Directions for reaching out with further questions:
