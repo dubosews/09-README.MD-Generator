@@ -1,4 +1,7 @@
 # README.md Generator (node.js)
+<img src="./utils/img/challenge09_readmeScreenshot.png"></img>
+<br>
+
 
 ## Table of Contents
   1. [Description](#description) 
