@@ -19,3 +19,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 misc/adobeAPISample/pdf-embed-api-samples/
+
+# packages
+package.json*
+package-lock.json*
